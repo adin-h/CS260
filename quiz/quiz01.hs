@@ -9,4 +9,3 @@ prime x
     | x <= 1 = False
     | x == 2 = True
     | otherwise = isPrime x 2
-    

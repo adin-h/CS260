@@ -6,4 +6,3 @@ sumEven [] = 0      -- base case
 sumEven (x : xs)    -- recursive case
     | even x = x + sumEven xs
     | otherwise = sumEven xs
-    
